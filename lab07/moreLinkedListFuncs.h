@@ -44,4 +44,17 @@ int smallestValue(LinkedList *list);
 
 int sum(LinkedList * list);
 
+// list: ptr to a linked list of Node (each with int data, and Node * next)
+// value: int value of the node to delete
+// Delete the Node with the given value in a recursive way. 
+// Use a helper function that performs the recursion
+
+void deleteNodeRecursively(LinkedList * list, int value);
+
+// list: ptr to a linked list of Node (each with int data, and Node * next)
+// value: int value of the node to delete
+// Delete the Node with the given value using loops. 
+
+void deleteNodeIteratively(LinkedList * list, int value);
+
 #endif
