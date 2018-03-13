@@ -57,4 +57,12 @@ void deleteNodeRecursively(LinkedList * list, int value);
 
 void deleteNodeIteratively(LinkedList * list, int value);
 
+
+// list: ptr to a linked list of Node (each with int data, and Node * next)
+// Nodes in the linked list are expected to be in sorted ascending order
+// value: int value of the node to insert
+// Insert a new node in the linked list with the given value at the right spot
+// The final linked list should have all its nodes in sorted ascending order
+void insertNodeToSortedList(LinkedList * list, int value);
+
 #endif
