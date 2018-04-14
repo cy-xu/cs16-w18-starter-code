@@ -2,6 +2,7 @@
 CS16 lab01 pratice
 CY Xu
 */
+
 #include <cstdlib>
 #include <iostream>
 using namespace std;
